@@ -28,14 +28,14 @@ while True:
         while True:
             console = input()
             if console == '/stop':
-                print("System Wird Gestopt")
-                print("Stoping")
+                print("System wird gestoppt...")
+                print("Stopping...")
                 time.sleep(3)
                 exit(0)
             elif console == "/name":
                 print("Du bist Elia Schmidt")
             elif console == "/help":
-                print("Mögliche Befehle Sind:")
+                print("Mögliche Befehle sind:")
                 print("/stop")
                 print("/name")
                 print("/help")
@@ -49,9 +49,9 @@ while True:
             elif console == "/joke 1":
                 print("Wie lautet der Vorname vom Reh?")
                 time.sleep(5)
-                print("Kartoffelpüreh")
+                print("Kartoffelpüree")
             elif console == "/joke 2":
-                print("Auf einer Skala von 1 bis 10 wie deutsch sind sie?")
+                print("Auf einer Skala von 1 bis 10 wie deutsch sind Sie?")
                 time.sleep(5)
                 print("Dürfte ich erstmal ihren Umfrageberechtigungsschein sehen?")
             elif console == "/joke 3":
