@@ -1,7 +1,7 @@
 import pyautogui as pg
 import webbrowser
 import time
-print("Please your enter Name")
+print("Gib bitte deinen Namen an.")
 name = input()
 print("loading...")
 time.sleep(5)
@@ -53,7 +53,7 @@ while True:
                 time.sleep(5)
                 print("Kartoffelpüree")
             elif console == "/joke 2":
-                print("Auf einer Skala von 1 bis 10 wie deutsch sind Sie?")
+                print("Auf einer Skala von 1 bis 10 wie deutsch sind sie?")
                 time.sleep(5)
                 print("Dürfte ich erstmal ihren Umfrageberechtigungsschein sehen?")
             elif console == "/joke 3":
@@ -68,11 +68,11 @@ while True:
                 while True:
                     print("Spam")
             elif console == "/pw":
-                password = input("Code eingeben")
+                password = input("Bitte Code eingeben...")
                 if password == "1234":
-                    print("password")
+                    print("So einfach ist der Code jetzt auch nicht...")
                 else:
-                    print("Falscher Code")
+                    print("Falscher Code...")
                     exit(0)
             elif console == "/kaka":
                 print("💩")
