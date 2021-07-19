@@ -1,7 +1,7 @@
 import pyautogui as pg
 import webbrowser
 import time
-print("Please enter Name")
+print("Please your enter Name")
 name = input()
 print("loading...")
 time.sleep(5)
