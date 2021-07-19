@@ -142,28 +142,28 @@ while True:
                         print("Wie alt ist Elia?")
                         quiz = input()
                         if quiz == "13":
-                            print("Correct")
+                            print("Richtig")
                             print("1/?")
                             time.sleep(3)
                             while True:
                                 quiz2 = input("Wie viele Haustiere hat Elia?")
                                 if quiz2 == "2":
-                                    print("Correct")
+                                    print("Richtig")
                                     print("2/?")
                                     time.sleep(3)
                                     while True:
                                         quiz3 = input("Mag Elia Caffe")
                                         if quiz3 == "ja":
-                                            print("Correct")
+                                            print("Richtig")
                                             print("3/?")
-                                            print("Well done")
+                                            print("Gut gemacht")
 
                                         else:
-                                            print("Wrong")
+                                            print("Falsch")
                                 else:
-                                    print("Wrong")
+                                    print("Falsch")
                         else:
-                            print("Wrong")
+                            print("Falsch")
                     else:
                         print("Unbekanter Befehl")
         else:
