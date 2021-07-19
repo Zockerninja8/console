@@ -33,7 +33,9 @@ while True:
                 time.sleep(3)
                 exit(0)
             elif console == "/name":
-                print("Du bist Elia Schmidt")
+                print("Du hast gesagt das du")
+                print(name)
+                print("heist")
             elif console == "/help":
                 print("Mögliche Befehle sind:")
                 print("/stop")
