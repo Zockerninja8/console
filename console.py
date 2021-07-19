@@ -1,7 +1,7 @@
 import pyautogui as pg
 import webbrowser
 import time
-print("Pleas enter Name")
+print("Please enter Name")
 name = input()
 print("loading...")
 time.sleep(5)
@@ -14,7 +14,7 @@ while True:
     erstes = input("Password")
     if erstes == "2008":
         print("Richtig")
-        print("Mögliche Befehle Sind:")
+        print("Mögliche Befehle sind:")
         print("/stop")
         print("/name")
         print("/help")
