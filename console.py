@@ -166,7 +166,8 @@ while True:
                                     print("Falsch")
                         else:
                             print("Falsch")
-                    else:
-                        print("Unbekanter Befehl")
+            else:
+                print("Unbekanter Befehl")
+                print("Bitte gib einen Befehl ein")
         else:
             print("Falsch")
