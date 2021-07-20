@@ -167,43 +167,17 @@ while True:
                         else:
                             print("Falsch")
             elif console == "/calculator":
-                print("Bitte gebe eine Zahl ein")
-                n1 = input()
-                print("Wähle eine rechen art aus")
-                print("1= Plus")
-                print("2= Minus")
-                print("3= Mal")
-                print("4= Geteilt")
-                rechnen = input()
-                if rechnen == "1":
-                    print("Wähle eine zweite Zahl aus")
-                    n2 = input()
-
-                elif rechnen == "1":
-                    print("Wähle eine zweite Zahl aus")
-                    n2 = input()
-
-
-                elif rechnen == "1":
-                    print("Wähle eine zweite Zahl aus")
-                    n2 = input()
-
-                elif rechnen == "1":
-                    print("Wähle eine zweite Zahl aus")
-                    n2 = input()
-
-
-
+                print("Traum aufgegeben")
             elif console == "/shitstorm":
-                    print("💩💩💩💩💩💩💩💩💩")
-                    print(" 💩💩💩💩💩💩💩💩")
-                    print("  💩💩💩💩💩💩💩")
-                    print("   💩💩💩💩💩💩")
-                    print("    💩💩💩💩💩")
-                    print("     💩💩💩💩")
-                    print("      💩💩💩")
-                    print("       💩💩")
-                    print("        💩")
+                print("💩💩💩💩💩💩💩💩💩")
+                print(" 💩💩💩💩💩💩💩💩")
+                print("  💩💩💩💩💩💩💩")
+                print("   💩💩💩💩💩💩")
+                print("    💩💩💩💩💩")
+                print("     💩💩💩💩")
+                print("      💩💩💩")
+                print("       💩💩")
+                print("        💩")
 
             else:
                 print("Unbekanter Befehl")
