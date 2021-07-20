@@ -25,6 +25,7 @@ while True:
         print("/spamm_whatsapp")
         print("/spamm_discord")
         print("/quiz")
+        print("/shitstorm")
         while True:
             console = input()
             if console == '/stop':
@@ -48,6 +49,7 @@ while True:
                 print("/spamm_whatsapp")
                 print("/spamm_discord")
                 print("/quiz")
+                print("/shitstorm")
             elif console == "/joke 1":
                 print("Wie lautet der Vorname vom Reh?")
                 time.sleep(5)
@@ -169,15 +171,30 @@ while True:
             elif console == "/calculator":
                 print("Traum aufgegeben")
             elif console == "/shitstorm":
-                print("💩💩💩💩💩💩💩💩💩")
-                print(" 💩💩💩💩💩💩💩💩")
-                print("  💩💩💩💩💩💩💩")
-                print("   💩💩💩💩💩💩")
-                print("    💩💩💩💩💩")
-                print("     💩💩💩💩")
-                print("      💩💩💩")
-                print("       💩💩")
-                print("        💩")
+                print("Möchtest du es einmal sehen oder gespammt werden")
+                print("Wenn du es einmal sehen möchtest gebe 1 ein wenn du gespammt werden möchtest gib spamm ein")
+                ss = input()
+                if ss == "spamm":
+                    while True:
+                        print("💩💩💩💩💩💩💩💩💩")
+                        print(" 💩💩💩💩💩💩💩💩")
+                        print("  💩💩💩💩💩💩💩")
+                        print("   💩💩💩💩💩💩")
+                        print("    💩💩💩💩💩")
+                        print("     💩💩💩💩")
+                        print("      💩💩💩")
+                        print("       💩💩")
+                        print("        💩")
+                elif ss == "1":
+                    print("💩💩💩💩💩💩💩💩💩")
+                    print(" 💩💩💩💩💩💩💩💩")
+                    print("  💩💩💩💩💩💩💩")
+                    print("   💩💩💩💩💩💩")
+                    print("    💩💩💩💩💩")
+                    print("     💩💩💩💩")
+                    print("      💩💩💩")
+                    print("       💩💩")
+                    print("        💩")
 
             else:
                 print("Unbekanter Befehl")
