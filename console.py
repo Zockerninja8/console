@@ -80,6 +80,10 @@ while True:
             elif console == "/spam":
                 while True:
                     print("Spam")
+            elif console == "/everyonejoinsthebattle":
+                print(name+" joins the battle!!")
+                time.sleep(1)
+                webbrowser.open("https://www.youtube.com/watch?v=lylpnpNGA14")
             elif console == "/pop":
                 print("Pop!!")
                 time.sleep(1)
