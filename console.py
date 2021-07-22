@@ -26,6 +26,8 @@ while True:
         print("/spamm_discord")
         print("/quiz")
         print("/shitstorm")
+        print("/url")
+        print("/film")
         while True:
             console = input()
             if console == '/stop':
@@ -50,6 +52,8 @@ while True:
                 print("/spamm_discord")
                 print("/quiz")
                 print("/shitstorm")
+                print("/url")
+                print("/film")
             elif console == "/joke 1":
                 print("Wie lautet der Vorname vom Reh?")
                 time.sleep(5)
