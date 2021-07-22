@@ -42,7 +42,7 @@ while True:
                 print("/stop")
                 print("/name")
                 print("/help")
-                print("/joke 1-4")
+                print("/joke 1-?")
                 print("/spam")
                 print("/pw")
                 print("/kaka")
@@ -66,6 +66,10 @@ while True:
                 print("Meine Frau will mit mir über mein kindisches Verhalten reden.")
                 time.sleep(5)
                 print("Tja, aber ohne das Geheimwort kommt sie nicht in meine Kissenburg.")
+            elif console == "/joke 5":
+                print("Frau: Herr Doktor, kann ich mit Durchfall baden gehen?")
+                time.sleep(5)
+                print("Doktor: Ja klar, wenn Sie die Wanne voll kriegen.")
             elif console == "/spam":
                 while True:
                     print("Spam")
