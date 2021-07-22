@@ -18,7 +18,7 @@ while True:
         print("/stop")
         print("/name")
         print("/help")
-        print("/joke 1-4")
+        print("/joke 1-5")
         print("/spam")
         print("/pw")
         print("/kaka")
@@ -42,7 +42,7 @@ while True:
                 print("/stop")
                 print("/name")
                 print("/help")
-                print("/joke 1-?")
+                print("/joke 1-5")
                 print("/spam")
                 print("/pw")
                 print("/kaka")
@@ -73,6 +73,10 @@ while True:
             elif console == "/spam":
                 while True:
                     print("Spam")
+            elif console == "/url":
+                print("bitte gebe eine url ein")
+                url = input()
+                webbrowser.open("https://"+url)
             elif console == "/pw":
                 password = input("Bitte Code eingeben...")
                 if password == "1234":
