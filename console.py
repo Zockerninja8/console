@@ -80,6 +80,10 @@ while True:
             elif console == "/spam":
                 while True:
                     print("Spam")
+            elif console == "/pop":
+                print("Pop!!")
+                time.sleep(1)
+                webbrowser.open("https://www.youtube.com/watch?v=jMq7HVHgl-c")
             elif console == "/film":
                 print("Das war unser mit Abstand länstes Projekt!!")
                 time.sleep(3)
@@ -191,10 +195,10 @@ while True:
                 print("Traum aufgegeben")
 
             elif console == "/shitstorm":
-                print("Möchtest du es einmal sehen oder gespammt werden")
-                print("Wenn du es einmal sehen möchtest gebe 1 ein wenn du gespammt werden möchtest gib spamm ein")
+                print("Möchtest du es einmal sehen oder gespammt werden??")
+                print("Wenn du es einmal sehen möchtest gebe 1 ein, wenn du gespammt werden möchtest gib /spamm ein!!")
                 ss = input()
-                if ss == "spamm":
+                if ss == "/spamm":
                     while True:
                         print("💩💩💩💩💩💩💩💩💩")
                         print(" 💩💩💩💩💩💩💩💩")
