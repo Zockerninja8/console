@@ -92,6 +92,11 @@ while True:
                 print("Das war unser mit Abstand länstes Projekt!!")
                 time.sleep(3)
                 webbrowser.open("https://www.youtube.com/watch?v=A506ihAuYlQ")
+            elif console == "1234":
+                print("1234!!")
+                time.sleep(1)
+                webbrowser.open("https://www.youtube.com/watch?v=Fpn9R2YtHx8")
+                print("Frag einfach nicht...")
             elif console == "/url":
                 print("Bitte gebe eine URL ein...")
                 url = input()
@@ -199,31 +204,14 @@ while True:
                 print("Traum aufgegeben")
 
             elif console == "/shitstorm":
-                print("Möchtest du es einmal sehen oder gespammt werden??")
-                print("Wenn du es einmal sehen möchtest gebe 1 ein, wenn du gespammt werden möchtest gib /spamm ein!!")
-                ss = input()
-                if ss == "/spamm":
                     while True:
-                        print("💩💩💩💩💩💩💩💩💩")
-                        print(" 💩💩💩💩💩💩💩💩")
-                        print("  💩💩💩💩💩💩💩")
-                        print("   💩💩💩💩💩💩")
-                        print("    💩💩💩💩💩")
-                        print("     💩💩💩💩")
-                        print("      💩💩💩")
-                        print("       💩💩")
-                        print("        💩")
-                elif ss == "1":
-                    print("💩💩💩💩💩💩💩💩💩")
-                    print(" 💩💩💩💩💩💩💩💩")
-                    print("  💩💩💩💩💩💩💩")
-                    print("   💩💩💩💩💩💩")
-                    print("    💩💩💩💩💩")
-                    print("     💩💩💩💩")
-                    print("      💩💩💩")
-                    print("       💩💩")
-                    print("        💩")
-
+                        print("     💩💩💩💩💩💩💩💩💩")
+                        print("      💩💩💩💩💩💩💩💩")
+                        print("       💩💩💩💩💩💩💩")
+                        print("        💩💩💩💩💩💩")
+                        print("       💩💩💩💩💩💩💩")
+                        print("      💩💩💩💩💩💩💩💩")
+                        print("     💩💩💩💩💩💩💩💩💩")
             else:
                 print("Unbekanter Befehl")
                 print("Bitte gib einen Befehl ein")
