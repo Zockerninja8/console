@@ -73,6 +73,10 @@ while True:
             elif console == "/spam":
                 while True:
                     print("Spam")
+            elif console == "/film":
+                print("Das war unser mit abstand länstes projekt")
+                time.sleep(3)
+                webbrowser.open("https://www.youtube.com/watch?v=A506ihAuYlQ")
             elif console == "/url":
                 print("bitte gebe eine url ein")
                 url = input()
