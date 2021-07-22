@@ -85,7 +85,7 @@ while True:
                 time.sleep(3)
                 webbrowser.open("https://www.youtube.com/watch?v=A506ihAuYlQ")
             elif console == "/url":
-                print("bitte gebe eine url ein")
+                print("Bitte gebe eine URL ein...")
                 url = input()
                 webbrowser.open("https://"+url)
             elif console == "/pw":
