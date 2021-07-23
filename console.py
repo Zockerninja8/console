@@ -1,22 +1,23 @@
 import pyautogui as pg
 import webbrowser
 import time
-from tkinter import *
-from math import sqrt
-from random import shuffle
-print("Gib bitte deinen Namen an.")
+print("Gib bitte deinen Namen an...")
 name = input()
 print("loading...")
-time.sleep(5)
+time.sleep(1)
+print("connecting to server...")
+time.sleep(0.5)
+print("login successful...")
+time.sleep(0.5)
 print("system: online")
 time.sleep(1)
-print("Willkommen")
-print(name)
+print("Willkommen "+name)
 time.sleep(0.5)
 while True:
-    erstes = input("Password")
+    erstes = input("Bitte Code eingeben...")
     if erstes == "2008":
-        print("Richtig")
+        print("Richtiger Code eingegeben...")
+        time.sleep(0.5)
         print("Mögliche Befehle sind:")
         print("/stop")
         print("/name")
@@ -35,13 +36,13 @@ while True:
             console = input()
             if console == '/stop':
                 print("System wird gestoppt...")
-                print("Stopping...")
+                print("stopping...")
                 time.sleep(3)
                 exit(0)
             elif console == "/name":
-                print("Du hast gesagt das du")
+                print("Du hast gesagt, dass du")
                 print(name)
-                print("heist")
+                print("heißt.")
             elif console == "/help":
                 print("Mögliche Befehle sind:")
                 print("/stop")
@@ -111,7 +112,7 @@ while True:
             elif console == "/kaka":
                 print("💩")
             elif console == "/spamm_whatsapp":
-                print("to start pres enter to stop tippe /stop_spamm if you start there is no return")
+                print("Um zu starten drücke ENTER. Um zu stoppen gib /stop_spamm ein... ACHTUNG!! Wenn du es gestartet hast, gibt es kein Zurück mehr!!")
                 chrome_path = "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
                 webbrowser.register('chrome', None, webbrowser.BackgroundBrowser(chrome_path))
                 webbrowser.get('chrome').open_new_tab("web.whatsapp.com")
@@ -171,35 +172,35 @@ while True:
                     pg.press("t")
                     pg.press("enter")
             elif console == "/game 1":
-                print("Work in procres")
+                print("Work in progress...")
             elif console == "/quiz":
                 while True:
                     while True:
                         print("Wie alt ist Elia?")
                         quiz = input()
                         if quiz == "13":
-                            print("Richtig")
+                            print("Richtig!")
                             print("1/?")
                             time.sleep(3)
                             while True:
                                 quiz2 = input("Wie viele Haustiere hat Elia?")
                                 if quiz2 == "2":
-                                    print("Richtig")
+                                    print("Richtig!")
                                     print("2/?")
                                     time.sleep(3)
                                     while True:
-                                        quiz3 = input("Mag Elia Caffe")
+                                        quiz3 = input("Mag Elia Caffe?")
                                         if quiz3 == "ja":
-                                            print("Richtig")
+                                            print("Richtig!")
                                             print("3/?")
-                                            print("Gut gemacht")
+                                            print("Gut gemacht!")
 
                                         else:
-                                            print("Falsch")
+                                            print("Falsch!")
                                 else:
-                                    print("Falsch")
+                                    print("Falsch!")
                         else:
-                            print("Falsch")
+                            print("Falsch!")
             elif console == "/calculator":
                 print("Traum aufgegeben")
 
@@ -216,4 +217,4 @@ while True:
                 print("Unbekanter Befehl")
                 print("Bitte gib einen Befehl ein")
     else:
-        print("Falsch")
+        print("Falscher Code eingegeben...")
