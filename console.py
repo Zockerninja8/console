@@ -127,10 +127,7 @@ while True:
                     pg.press("t")
                     pg.press("enter")
             elif console == "/spamm_discord":
-                chrome_path = "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
-                webbrowser.register('chrome', None, webbrowser.BackgroundBrowser(chrome_path))
-                webbrowser.get('chrome').open_new_tab("https://discord.com/channels/@me/857922893265502231")
-                time.sleep(15)
+                webbrowser.open("https://web.whatsapp.com")
                 while True:
                     pg.press("h")
                     pg.press("a")
