@@ -98,10 +98,7 @@ while True:
             elif console == "/kaka":
                 print("💩")
             elif console == "/spamm_whatsapp":
-                print("to start pres enter to stop tippe /stop_spamm if you start there is no return")
-                chrome_path = "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
-                webbrowser.register('chrome', None, webbrowser.BackgroundBrowser(chrome_path))
-                webbrowser.get('chrome').open_new_tab("web.whatsapp.com")
+                webbrowser.open("https://web.whatsapp.com")
                 time.sleep(15)
                 pg.press("tab")
                 pg.press("tab")
