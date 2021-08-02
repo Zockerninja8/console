@@ -31,6 +31,7 @@ while True:
         print("/shitstorm")
         print("/url")
         print("/film")
+        print("/calculator")
         while True:
             console = input()
             if console == '/stop':
@@ -57,6 +58,7 @@ while True:
                 print("/shitstorm")
                 print("/url")
                 print("/film")
+                print("/calculator")
             elif console == "/joke 1":
                 print("Wie lautet der Vorname vom Reh?")
                 time.sleep(5)
@@ -88,6 +90,39 @@ while True:
                 print("Bitte gebe eine URL ein...")
                 url = input()
                 webbrowser.open("https://"+url)
+            elif console == "/calculator":
+                print("Bitte wähle eine Zahl")
+                n1 = input()
+                print("Wähle eine Rechenart")
+                print("1= Plus 2= Minus 3= Geteilt 4= Mal")
+                while True:
+                    calculator = input("/stop zum beenden")
+                    if calculator == "1":
+                        print("Wähle eine zweite Zahl")
+                        n2 = input()
+                        print(int(n2) + int(n1))
+                        time.sleep(4)
+                        continue
+                    elif calculator == "2":
+                        print("Wähle eine zweite Zahl")
+                        n2 = input()
+                        print(int(n2) - int(n1))
+                        time.sleep(4)
+                        continue
+                    elif calculator == "3":
+                        print("Wähle eine zweite Zahl")
+                        n2 = input()
+                        print(int(n2) / int(n1))
+                        time.sleep(4)
+                        continue
+                    elif calculator == "4":
+                        print("Wähle eine zweite Zahl")
+                        n2 = input()
+                        print(int(n2) * int(n1))
+                        time.sleep(4)
+                        continue
+                    elif calculator == "/stop":
+                        continue
             elif console == "/pw":
                 password = input("Bitte Code eingeben...")
                 if password == "1234":
@@ -181,8 +216,6 @@ while True:
                                     print("Falsch")
                         else:
                             print("Falsch")
-            elif console == "/calculator":
-                print("Traum aufgegeben")
             elif console == "/bubble":
                 HEIGHT = 768
                 WIDTH = 1366
