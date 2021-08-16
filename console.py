@@ -1,9 +1,6 @@
 import pyautogui as pg
 import webbrowser
 import time
-from tkinter import *
-from math import sqrt
-from random import shuffle
 print("Gib bitte deinen Namen an.")
 name = input()
 print("loading...")
@@ -91,11 +88,11 @@ while True:
                 url = input()
                 webbrowser.open("https://"+url)
             elif console == "/calculator":
-                print("Bitte wähle eine Zahl")
-                n1 = input()
-                print("Wähle eine Rechenart")
-                print("1= Plus 2= Minus 3= Geteilt 4= Mal")
                 while True:
+                    print("Bitte wähle eine Zahl")
+                    n1 = input()
+                    print("Wähle eine Rechenart")
+                    print("1= Plus 2= Minus 3= Geteilt 4= Mal")
                     calculator = input("/stop zum beenden")
                     if calculator == "1":
                         print("Wähle eine zweite Zahl")
@@ -123,6 +120,8 @@ while True:
                         continue
                     elif calculator == "/stop":
                         continue
+                    else:
+                        print("Bitte gib eine Zahl von 1 bis 4 ein")
             elif console == "/pw":
                 password = input("Bitte Code eingeben...")
                 if password == "1234":
