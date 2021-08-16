@@ -187,8 +187,15 @@ while True:
                     pg.press("enter")
             elif console == "/game 1":
                 print("Work in procres")
+            elif console == "/secret":
+                print("Bitte Password eingeben")
+                secretpw = input()
+                if secretpw == "sad":
+                    print("Secret befehle sind:")
+                    print("/data robin/elia")
+                    print("/secret.list")
+                    print("/menu")
             elif console == "/quiz":
-                while True:
                     while True:
                         print("Wie alt ist Elia?")
                         quiz = input()
