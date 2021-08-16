@@ -195,6 +195,9 @@ while True:
                     print("/data robin/elia")
                     print("/secret.list")
                     print("/menu")
+                    secrets = input()
+                    if secrets == "/data robin":
+                        print()
             elif console == "/quiz":
                     while True:
                         print("Wie alt ist Elia?")
