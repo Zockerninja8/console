@@ -198,33 +198,40 @@ while True:
                     secrets = input()
                     if secrets == "/data robin":
                         print()
+                    elif secrets == "/data elia":
+                        print()
+                    elif secrets == "/secret.list":
+                        print("Secret befehle sind:")
+                        print("/data robin/elia")
+                        print("/secret.list")
+                        print("/menu")
             elif console == "/quiz":
-                    while True:
-                        print("Wie alt ist Elia?")
-                        quiz = input()
-                        if quiz == "13":
-                            print("Richtig")
-                            print("1/?")
-                            time.sleep(3)
-                            while True:
-                                quiz2 = input("Wie viele Haustiere hat Elia?")
-                                if quiz2 == "2":
-                                    print("Richtig")
-                                    print("2/?")
-                                    time.sleep(3)
-                                    while True:
-                                        quiz3 = input("Mag Elia Caffe")
-                                        if quiz3 == "ja":
-                                            print("Richtig")
-                                            print("3/?")
-                                            print("Gut gemacht")
+                while True:
+                    print("Wie alt ist Elia?")
+                    quiz = input()
+                    if quiz == "13":
+                        print("Richtig")
+                        print("1/?")
+                        time.sleep(3)
+                        while True:
+                            quiz2 = input("Wie viele Haustiere hat Elia?")
+                            if quiz2 == "2":
+                                print("Richtig")
+                                print("2/?")
+                                time.sleep(3)
+                                while True:
+                                    quiz3 = input("Mag Elia Caffe")
+                                    if quiz3 == "ja":
+                                        print("Richtig")
+                                        print("3/?")
+                                        print("Gut gemacht")
 
-                                        else:
-                                            print("Falsch")
-                                else:
-                                    print("Falsch")
-                        else:
-                            print("Falsch")
+                                    else:
+                                        print("Falsch")
+                            else:
+                                print("Falsch")
+                    else:
+                        print("Falsch")
 
             elif console == "/shitstorm":
                 print("Bist du sicher, dass du das machen willst?")
