@@ -217,8 +217,10 @@ while True:
                             print("Falsch")
 
             elif console == "/shitstorm":
+                print("Bist du sicher, dass du das machen willst?")
+                print("Dann schreibe ja.")
                 ss = input()
-                if ss == "/shitstorm":
+                if ss == "ja":
                     while True:
                         print("       💩")
                         print("      💩💩")
