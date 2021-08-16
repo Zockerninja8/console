@@ -11,7 +11,7 @@ print("Willkommen "+ name)
 
 time.sleep(0.5)
 while True:
-    erstes = input("Password")
+    erstes = input("Password: ")
     if erstes == "2008":
         print("Richtig")
         print("Mögliche Befehle sind:")
