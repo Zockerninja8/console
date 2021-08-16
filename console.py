@@ -7,7 +7,7 @@ print("loading...")
 time.sleep(5)
 print("system: online")
 time.sleep(1)
-print("Willkommen"+ name)
+print("Willkommen "+ name)
 
 time.sleep(0.5)
 while True:
