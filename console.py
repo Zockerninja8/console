@@ -37,9 +37,9 @@ while True:
                 time.sleep(3)
                 exit(0)
             elif console == "/name":
-                print("Du hast gesagt das du")
+                print("Du hast gesagt, dass du")
                 print(name)
-                print("heist")
+                print("heißt.")
             elif console == "/help":
                 print("Mögliche Befehle sind:")
                 print("/stop")
@@ -225,11 +225,11 @@ while True:
                                             print("Gut gemacht")
 
                                         else:
-                                            print("Falsch")
+                                            print("Falsch...")
                                 else:
-                                    print("Falsch")
+                                    print("Falsch...")
                         else:
-                            print("Falsch")
+                            print("Falsch...")
 
             elif console == "/shitstorm":
                 print("Bist du sicher, dass du das machen willst?")
@@ -237,26 +237,26 @@ while True:
                 ss = input()
                 if ss == "ja":
                     while True:
-                        print("                                                                                                                                                                                                                                                 💩")
-                        print("                                                                                                                                                                                                                                                💩💩")
-                        print("                                                                                                                                                                                                                                               💩💩💩")
-                        print("                                                                                                                                                                                                                                              💩💩💩💩 ")
-                        print("                                                                                                                                                                                                                                              💩💩💩💩💩")
-                        print("                                                                                                                                                                                                                                               💩💩💩💩")
-                        print("                                                                                                                                                                                                                                                💩💩💩")
-                        print("                                                                                                                                                                                                                                                 💩💩")
-                        print("                                                                                                                                                                                                                                                  💩")
-                        print("                                                                                                                                                                                                                                                 💩💩")
-                        print("                                                                                                                                                                                                                                                💩💩💩")
-                        print("                                                                                                                                                                                                                                              💩💩💩💩💩")
-                        print("                                                                                                                                                                                                                                             💩💩💩💩💩💩")
-                        print("                                                                                                                                                                                                                                              💩💩💩💩💩")
-                        print("                                                                                                                                                                                                                                               💩💩💩💩")
-                        print("                                                                                                                                                                                                                                                💩💩💩")
-                        print("                                                                                                                                                                                                                                                 💩💩")
-                        print("                                                                                                                                                                                                                                                  💩")
+                        print("                                                                                                                                                                                                                                                                                                                                          💩")
+                        print("                                                                                                                                                                                                                                                                                                                                         💩💩")
+                        print("                                                                                                                                                                                                                                                                                                                                        💩💩💩")
+                        print("                                                                                                                                                                                                                                                                                                                                       💩💩💩💩 ")
+                        print("                                                                                                                                                                                                                                                                                                                                       💩💩💩💩💩")
+                        print("                                                                                                                                                                                                                                                                                                                                        💩💩💩💩")
+                        print("                                                                                                                                                                                                                                                                                                                                         💩💩💩")
+                        print("                                                                                                                                                                                                                                                                                                                                          💩💩")
+                        print("                                                                                                                                                                                                                                                                                                                                           💩")
+                        print("                                                                                                                                                                                                                                                                                                                                          💩💩")
+                        print("                                                                                                                                                                                                                                                                                                                                         💩💩💩")
+                        print("                                                                                                                                                                                                                                                                                                                                       💩💩💩💩💩")
+                        print("                                                                                                                                                                                                                                                                                                                                      💩💩💩💩💩💩")
+                        print("                                                                                                                                                                                                                                                                                                                                       💩💩💩💩💩")
+                        print("                                                                                                                                                                                                                                                                                                                                        💩💩💩💩")
+                        print("                                                                                                                                                                                                                                                                                                                                         💩💩💩")
+                        print("                                                                                                                                                                                                                                                                                                                                          💩💩")
+                        print("                                                                                                                                                                                                                                                                                                                                           💩")
             else:
                 print("Unbekanter Befehl")
                 print("Bitte gib einen Befehl ein")
     else:
-        print("Falsch")
+        print("Falsch...")
