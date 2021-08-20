@@ -7,8 +7,7 @@ print("loading...")
 time.sleep(5)
 print("system: online")
 time.sleep(1)
-print("Willkommen")
-print(name)
+print("Willkommen "+name)
 time.sleep(0.5)
 while True:
     erstes = input("Password")
@@ -37,7 +36,7 @@ while True:
                 time.sleep(3)
                 exit(0)
             elif console == "/name":
-                print("Du hast gesagt dass du"+name+"heißt")
+                print("Du hast gesagt dass du "+name+" heißt")
             elif console == "/help":
                 print("Mögliche Befehle sind:")
                 print("/stop")
