@@ -1,6 +1,7 @@
 import pyautogui as pg
 import webbrowser
 import time
+import os
 print("Gib bitte deinen Namen an.")
 name = input()
 print("loading...")
@@ -28,6 +29,7 @@ while True:
         print("/url")
         print("/film")
         print("/calculator")
+        print("/shutdown")
         while True:
             console = input()
             if console == '/stop':
@@ -53,6 +55,7 @@ while True:
                 print("/url")
                 print("/film")
                 print("/calculator")
+                print("/shutdown")
             elif console == "/joke 1":
                 print("Wie lautet der Vorname vom Reh?")
                 time.sleep(5)
@@ -252,6 +255,10 @@ while True:
                         print("                                                                                                                                                                                                                                                                                                                                         💩💩💩")
                         print("                                                                                                                                                                                                                                                                                                                                          💩💩")
                         print("                                                                                                                                                                                                                                                                                                                                           💩")
+            elif console == "/shutdown":
+                print("PC shutdown in 5sec")
+                time.sleep(5)
+                os.system("shutdown /t /s 1")
             else:
                 print("Unbekanter Befehl")
                 print("Bitte gib einen Befehl ein")
